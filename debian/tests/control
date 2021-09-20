@@ -1,0 +1,3 @@
+Test-Command: /usr/bin/python3 -m mypy.stubtest --ignore-missing-stub toml --allowlist /usr/share/doc/python-types-toml/stubtest_allowlist.txt
+Depends: @, python3-toml, python3-mypy
+Restrictions: allow-stderr

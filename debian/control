@@ -1,0 +1,26 @@
+Source: python-types-toml
+Section: python
+Priority: optional
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Michael R. Crusoe <crusoe@debian.org>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools
+Standards-Version: 4.6.0
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-toml-types
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-toml-types.git
+Homepage: https://github.com/python/typeshed
+Rules-Requires-Root: no
+
+Package: python3-types-toml
+Architecture: all
+Depends: python3, ${python3:Depends}, ${misc:Depends}
+Description: Typing stubs for toml
+ This is a PEP 561 type stub package for the toml package. It can be used by
+ type-checking tools like mypy, PyCharm, pytype etc. to check code that uses
+ toml. The source for this package can be found at
+ https://github.com/python/typeshed/tree/master/stubs/toml.
+ All fixes for types and metadata should be contributed there.
+ .
+ See https://github.com/python/typeshed/blob/master/README.md for more details.

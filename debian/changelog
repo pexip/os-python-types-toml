@@ -1,0 +1,18 @@
+python-types-toml (0.10.0-2) unstable; urgency=medium
+
+  * Architecture: all, not any
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Mon, 20 Sep 2021 13:26:01 +0200
+
+python-types-toml (0.10.0-1) unstable; urgency=medium
+
+  * New upstream version
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Mon, 20 Sep 2021 13:17:44 +0200
+
+python-types-toml (0.1.5-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #994403)
+  * Remove trailing whitespace in debian/control (routine-update)
+
+ -- Michael R. Crusoe <crusoe@debian.org>  Wed, 15 Sep 2021 17:21:06 +0200
