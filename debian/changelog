@@ -1,3 +1,9 @@
+python-types-toml (0.10.0-2pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- Huw Jones <huw@pexip.com>  Thu, 28 Oct 2021 14:55:38 +0000
+
 python-types-toml (0.10.0-2) unstable; urgency=medium
 
   * Architecture: all, not any
